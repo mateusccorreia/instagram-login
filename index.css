@@ -1,0 +1,58 @@
+main {
+    background-color: #FAFAFA;
+}
+
+.imagens img{
+    height: 350px;
+    width: 200px;
+}
+
+.imagens {
+    padding-right: 2rem;    
+}
+
+section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+a > img {
+    height: 30px;
+    width: 90px;
+}
+
+.main-login {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    align-items: center;
+    text-align: center;
+}
+
+.login-side h2 {
+    text-align: center;
+}
+
+.login-side {
+    width: 300px;
+}
+
+.login input {
+    display: block;
+    margin: 0.5rem 1rem;
+}
+
+button {
+    background-color: #0095F6;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;    
+ }
